@@ -1,38 +1,21 @@
-.App {
+#letter{
+  background-color: rgb(251, 218, 255);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.my-special-key {
+  background-color: rgb(161, 161, 161) !important; /* Highlight vowels */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.correct-key {
+  background-color: rgb(0, 202, 121) !important; /* Highlight vowels */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.partial-correct-key {
+  background-color: rgb(226, 198, 94) !important; /* Highlight vowels */
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#submit-btn{
+  background-color: rgb(251, 218, 255);
+  color: black;
+  border: none;
 }
