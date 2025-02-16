@@ -189,7 +189,7 @@ function App() {
         </Row>
         <Row>
           <Col>
-          {!isWordValid && currCol == 5 && <p className="text-center">Not a dictionary word!</p>}
+          {!isWordValid && currCol === 5 && <p className="text-center">Not a dictionary word!</p>}
           </Col>
         </Row>
         <br></br>
